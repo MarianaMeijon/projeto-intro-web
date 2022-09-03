@@ -28,3 +28,40 @@ console.log (mediavalores)
 
 const verificaBoleanos = temPraia1&&temPraia2&&temPraia3&&temPraia4 
 console.log (verificaBoleanos)
+
+// 5. Crie pelo menos mais uma característica para o item que você criou. Esta característica deve ser um array. Mantenha o tipo de dado do array criado sempre o mesmo, isto é, se é um array de strings, só deve receber strings.
+
+const caracteristica1Array = ["Capixaba ", " Espirito-Santense"]
+const caracteristica2Array = ["Mineiro ", " Montanhês", " Geralista"]
+const caracteristica3Array = ["Carioca ", " Fluminense"]
+const caracteristica4Array = ["Paulista ", " Bandeirante"]
+
+// 6. Exiba um relatório utilizando console.log(), mostrando todos os dados de cada um dos itens criados até aqui
+//   6.1. O log deve exibir o dado de nome, título ou afim sempre em LETRAS MAIÚSCULAS, como no exemplo abaixo.
+
+const nome1Maiusculo = nome1.toUpperCase()
+const nome2Maiusculo = nome2.toUpperCase()
+const nome3Maiusculo = nome3.toUpperCase()
+const nome4Maiusculo = nome4.toUpperCase()
+
+console.log (`Estado: ${nome1Maiusculo}
+Quantos munícipios tem? ${municipios1}
+Tem praia? ${temPraia1}
+Adjetivo Pátrio: ${caracteristica1Array}
+
+Estado: ${nome2Maiusculo}
+Quantos munícipios tem? ${municipios2}
+Tem praia? ${temPraia2}
+Adjetivo Pátrio: ${caracteristica2Array}
+
+Estado: ${nome3Maiusculo}
+Quantos munícipios tem? ${municipios3}
+Tem praia? ${temPraia3}
+Adjetivo Pátrio: ${caracteristica3Array}
+
+Estado: ${nome4Maiusculo}
+Quantos munícipios tem? ${municipios4}
+Tem praia? ${temPraia4}
+Adjetivo Pátrio: ${caracteristica4Array}
+
+`)
